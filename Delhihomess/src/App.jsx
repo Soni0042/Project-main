@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-import Home from './pages/Home';  // Correct relative path, no leading slash
-import Contactus from './pages/Contactus';  // Correct relative path, no leading slash
-import Aboutus from './pages/Aboutus';  // Correct relative path, no leading slash
+import Home from './Pages/Home';  // Correct relative path, no leading slash
+import Contactus from './Pages/Contactus';  // Correct relative path, no leading slash
+import Aboutus from './Pages/Aboutus';  // Correct relative path, no leading slash
 import PropertyValuation from './services/propertyvaluation';
 import LegalTitleCheck from './services/legaltitlecheck';
 import RatesAndTrends from './services/ratesandtrends';
